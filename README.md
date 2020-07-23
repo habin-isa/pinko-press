@@ -1,6 +1,6 @@
-# React haboilerplate
+# Pinko Press
 
-### Base for future React project with simple dependencies
+### Static site for Pinko Press publishing house (Tommy Spitters)
 
 ### To run the project
 

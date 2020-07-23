@@ -1,5 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap'); */
 
 body {
-  font-family: 'Ubuntu', sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #5ac28b;
+}
+
+a,
+u {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }

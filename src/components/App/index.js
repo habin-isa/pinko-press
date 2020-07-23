@@ -1,9 +1,14 @@
 import React from 'react';
 import * as S from './styles';
+import Navbar from '../Navbar';
 // import { string } from 'prop-types';
 
 const App = () => {
-  return <S.Wrapper>😎 Haboilerplate 😎</S.Wrapper>;
+  return (
+    <S.Wrapper>
+      <Navbar />
+    </S.Wrapper>
+  );
 };
 
 export default App;

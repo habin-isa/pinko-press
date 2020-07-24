@@ -6,9 +6,10 @@ const Footer = () => {
     const today = new Date();
     const dd = String(today.getDate()).padStart(2, '0');
     const mm = String(today.getMonth() + 1).padStart(2, '0');
-    const yyyy = today.getFullYear();
+    const year = today.getFullYear();
+    const yy = year.toString().substr(-2);
 
-    return mm + '.' + dd + '.' + yyyy;
+    return mm + '.' + dd + '.' + yy;
   };
   return (
     <S.Wrapper>

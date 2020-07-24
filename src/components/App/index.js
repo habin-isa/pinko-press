@@ -3,6 +3,7 @@ import * as S from './styles';
 import Navbar from '../Navbar';
 import ContentContainer from '../ContentContainer';
 import TileContainer from '../TileContainer';
+import Footer from '../Footer';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <ContentContainer />
       <TileContainer />
+      <Footer />
     </S.Wrapper>
   );
 };

@@ -1,26 +1,15 @@
 import React from 'react';
 import * as S from './styles';
 import Navbar from '../Navbar';
-// import { string } from 'prop-types';
+import ContentContainer from '../ContentContainer';
 
 const App = () => {
   return (
     <S.Wrapper>
       <Navbar />
+      <ContentContainer />
     </S.Wrapper>
   );
 };
 
 export default App;
-
-// If props were drilled into App component
-// E.g. const App = ({ propName, propTwo })
-
-// App.propTypes = {
-//   propName: string,
-//   propTwo: string.isRequired
-// };
-
-// App.defaultProps = {
-//   propName: 'Kimmy'
-// };

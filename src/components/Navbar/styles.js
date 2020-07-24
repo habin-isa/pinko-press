@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 2.5% 10%;
 `;
 
 export const Title = styled.span`

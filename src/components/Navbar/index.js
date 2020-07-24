@@ -4,10 +4,7 @@ import * as S from './styles';
 
 const Navbar = () => {
   const openInstagram = () => {
-    window.open(
-      'https://www.instagram.com/pinko.press/?hl=en',
-      '_blank' // <- This is what makes it open in a new window.
-    );
+    window.open('https://www.instagram.com/pinko.press/?hl=en', '_blank');
   };
   return (
     <S.Wrapper>

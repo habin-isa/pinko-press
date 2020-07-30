@@ -9,9 +9,7 @@ import InfoContainer from '../InfoContainer';
 const App = () => {
   const [showInfo, setShowInfo] = useState(true);
   const toggleInfo = () => {
-    // showInfo === true ? setShowInfo(false) : setShowInfo(true);
     setShowInfo(!showInfo);
-    console.log('showInfo:', showInfo);
   };
   return (
     <S.Wrapper>

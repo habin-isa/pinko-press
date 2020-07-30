@@ -28,3 +28,11 @@ export const Link = styled.a`
     opacity: 0.8;
   }
 `;
+
+export const Img = styled.img`
+  height: 21px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+`;

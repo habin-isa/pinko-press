@@ -1,16 +1,17 @@
 import React from 'react';
 import * as S from './styles';
+import crossImg from '../../assets/cross_icon.png';
 // import { string } from 'prop-types';
 
-const Navbar = () => {
+const Navbar = ({ onClick, showInfo }) => {
   const openInstagram = () => {
     window.open('https://www.instagram.com/pinko.press/?hl=en', '_blank');
   };
   return (
     <S.Wrapper>
-      <S.Title>PINKO PRESS</S.Title>
+      {showInfo === true ? <S.Img src={crossImg} onClick={onClick} /> : <S.Title>PINKO PRESS</S.Title>}
       <S.LinkContainer>
-        <S.Link>INFO</S.Link>
+        <S.Link onClick={onClick}>INFO</S.Link>
         <S.Link href="mailto:tommyspitters@hotmail.co.uk">CONTACT</S.Link>
         <S.Link onClick={openInstagram}>FOLLOW</S.Link>
       </S.LinkContainer>

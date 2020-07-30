@@ -4,11 +4,11 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   background: white;
-  padding: 2% 10%;
+  padding: 0 10%;
 `;
 
 export const Content = styled.div`
   font-size: 30px;
   line-height: 35px;
-  padding: 20px;
+  padding: 10px;
 `;

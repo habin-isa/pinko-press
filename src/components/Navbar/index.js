@@ -9,7 +9,7 @@ const Navbar = ({ onClick, showInfo }) => {
   };
   return (
     <S.Wrapper>
-      {showInfo === true ? <S.Img src={crossImg} onClick={onClick} /> : <S.Title>PINKO PRESS</S.Title>}
+      {showInfo === true ? <S.Title>PINKO PRESS</S.Title> : <S.Img src={crossImg} onClick={onClick} />}
       <S.LinkContainer>
         <S.Link onClick={onClick}>INFO</S.Link>
         <S.Link href="mailto:tommyspitters@hotmail.co.uk">CONTACT</S.Link>

@@ -7,14 +7,16 @@ import Footer from '../Footer';
 import InfoContainer from '../InfoContainer';
 
 const App = () => {
-  const [showInfo, setShowInfo] = useState(false);
+  const [showInfo, setShowInfo] = useState(true);
   const toggleInfo = () => {
+    // showInfo === true ? setShowInfo(false) : setShowInfo(true);
     setShowInfo(!showInfo);
+    console.log('showInfo:', showInfo);
   };
   return (
     <S.Wrapper>
       <Navbar onClick={toggleInfo} showInfo={showInfo} />
-      {showInfo === true ? (
+      {showInfo === false ? (
         <InfoContainer />
       ) : (
         <div>

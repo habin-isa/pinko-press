@@ -14,9 +14,9 @@ const InfoContainer = () => {
         perceptions of social housing, starting just after the Second World War up to now is currently sold out.
       </S.Content>
       <S.Content>
-        Rise Into Ruin (PP002) is collection of reactions and opinions on the display of a section of Robin Hood Gardens
-        at the 2018 Venice Bienalle, and the importance of that, within the bigger picture of gentrification and social
-        cleansing. It is currently available to view on this website, with new articles and essays being uploaded
+        Rise Into Ruin (PP002) is a collection of reactions and opinions on the display of a section of Robin Hood
+        Gardens at the 2018 Venice Bienalle, and the importance of that, within the bigger picture of gentrification and
+        social cleansing. It is currently available to view on this website, with new articles and essays being uploaded
         sporadically.
       </S.Content>
       <S.Content>If you have an idea for an upcoming Pinko Press submission, please get in touch here</S.Content>

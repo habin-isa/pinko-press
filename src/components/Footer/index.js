@@ -9,7 +9,7 @@ const Footer = () => {
     const year = today.getFullYear();
     const yy = year.toString().substr(-2);
 
-    return mm + '.' + dd + '.' + yy;
+    return mm + '.' + dd + ' .' + yy;
   };
   return (
     <S.Wrapper>

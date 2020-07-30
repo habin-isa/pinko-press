@@ -8,9 +8,18 @@ export const Wrapper = styled.div`
   color: #5ac28b;
   padding: 15px;
   margin: 22px;
+  display: flex;
+  flex-direction: column;
+  width: min-content;
 `;
 
 export const Title = styled.span`
   font-size: 30px;
   line-height: 32px;
+`;
+
+export const Author = styled.span`
+  font-size: 30px;
+  line-height: 32px;
+  margin-top: 30px;
 `;

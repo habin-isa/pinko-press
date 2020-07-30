@@ -1,10 +1,11 @@
 import React from 'react';
 import * as S from './styles';
 
-const Tile = () => {
+const Tile = ({ data }) => {
   return (
     <S.Wrapper>
-      <S.Title>FOR WHOM WILL A BUILDING SPEAK: ROBIN HOOD GARDENS AND NEW COLLECTION STRATEGIES AT THE V&A</S.Title>
+      <S.Title>{data.title}</S.Title>
+      {data.author !== '' ? <S.Author>by {data.author}</S.Author> : <span />}
     </S.Wrapper>
   );
 };

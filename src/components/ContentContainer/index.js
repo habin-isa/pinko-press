@@ -9,10 +9,10 @@ const ContentContainer = () => {
       <S.Title>RISE INTO RUIN</S.Title>
       <S.Img src={coverImg} />
       <S.Subtitle>SOCIAL HOUSING, GENTRIFICATION & THE VENICE BIENNALE</S.Subtitle>
-      <S.Content>
+      {/* <S.Content>
         <S.Col>{data[0].content}</S.Col>
         <S.Col>{data[1].content}</S.Col>
-      </S.Content>
+      </S.Content> */}
     </S.Wrapper>
   );
 };

@@ -80,14 +80,24 @@ export const Subtitle = styled.span`
   }
 `;
 
-export const Content = styled.span`
-  display: flex;
-  align-items: flex-start;
-  padding: 0 5%;
-`;
-
-export const Col = styled.span`
-  font-size: 30px;
+export const Content = styled.div`
+  font-size: 29px;
   line-height: 35px;
   padding: 30px;
+  @media only screen and (max-width: 767px) {
+    column-count: 1;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 21px;
+    padding-bottom: 35px;
+  }
+  @media only screen and (min-width: 768px) {
+    column-count: 2;
+    padding: 24px;
+    padding-bottom: 9px;
+  }
+  @media only screen and (min-width: 1024px) {
+    padding: 46px;
+    padding-bottom: 361px;
+  }
 `;

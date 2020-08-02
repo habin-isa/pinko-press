@@ -13,8 +13,6 @@ const ContentContainer = () => {
         {data[0].content}
         {data[1].content}
       </S.Content>
-      {/* <S.Col>{data[0].content}</S.Col> */}
-      {/* <S.Col>{data[1].content}</S.Col> */}
     </S.Wrapper>
   );
 };

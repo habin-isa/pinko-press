@@ -20,8 +20,8 @@ const App = () => {
         <div>
           {' '}
           <ContentContainer />
-          {/* <TileContainer />
-          <Footer /> */}
+          <TileContainer />
+          {/* <Footer /> */}
         </div>
       )}
     </S.Wrapper>

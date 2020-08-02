@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  // width: 33%;
   flex-grow: 1;
   background: black;
   height: 410px;
@@ -11,6 +10,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   width: min-content;
+  flex: 1 300px;
 `;
 
 export const Title = styled.span`
